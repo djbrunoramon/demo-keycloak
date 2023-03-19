@@ -1,0 +1,12 @@
+debug: true
+server:
+  port: 8081
+
+keycloak:
+  server-url: http://localhost:8080/auth
+  config:
+    realm: demo-keycloak-realm
+    client-id: keycloack-demo
+    client-secret: 6780c83e-bbfe-4164-972e-69ab27e15841
+    client-id-auth-user: autentica-user
+
